@@ -35,7 +35,7 @@
                             >
                                 <svg
                                     id="theme-toggle-dark-icon"
-                                    class="w-5 h-5 hidden"
+                                    class="w-6 h-6 hidden"
                                     fill="currentColor"
                                     viewBox="0 0 20 20"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@
                                 </svg>
                                 <svg
                                     id="theme-toggle-light-icon"
-                                    class="w-5 h-5 hidden"
+                                    class="w-6 h-6 hidden"
                                     fill="currentColor"
                                     viewBox="0 0 20 20"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -83,12 +83,12 @@
                        class="font-medium text-white bg-green-600 hover:bg-green-700 rounded-full p-3 px-6">Bericht
                         mij!</a>
                     <button
-                        id="theme-toggle"
+                        id="theme-toggle-md"
                         type="button"
                         class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
                     >
                         <svg
-                            id="theme-toggle-dark-icon"
+                            id="theme-toggle-dark-icon-md"
                             class="w-5 h-5 hidden"
                             fill="currentColor"
                             viewBox="0 0 20 20"
@@ -99,7 +99,7 @@
                             ></path>
                         </svg>
                         <svg
-                            id="theme-toggle-light-icon"
+                            id="theme-toggle-light-icon-md"
                             class="w-5 h-5 hidden"
                             fill="currentColor"
                             viewBox="0 0 20 20"
