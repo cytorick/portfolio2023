@@ -204,10 +204,14 @@
                     is het geen openbare site. Hiernaast staan in een carrousel een aantal uitgelichte
                     projecten.
                     <a href="{{ route('projects') }}" class="text-green-600 hover:text-green-700">Bekijk meer...</a>
-                    <span class="hidden md:block">(navigeer met <i
+                    <span class="hidden md:block">
+                        Navigeer met <i
                             class="fa-solid fa-arrow-left text-green-600"></i> & <i
-                            class="fa-solid fa-arrow-right text-green-600"></i>)</span><span
-                        class="block md:hidden inline">navigeer met door te <span class="text-green-600">swipen</span></span>
+                            class="fa-solid fa-arrow-right text-green-600"></i>
+                    </span>
+                    <span
+                        class="block md:hidden inline mt-2">Navigeer met door te <span
+                            class="text-green-600">swipen</span></span>
                 </p>
             </div>
             <div class="lg:col-span-2">
