@@ -6,7 +6,7 @@
         <div class="px-4 py-5 sm:px-6 space-y-4">
 
             <div class="grid grid-cols-10 gap-5">
-                <div class="col-span-5">
+                <div class="col-span-10 md:col-span-5">
                     <x-input.group stacked for="name" label="{{ __('Naam*') }}"
                                    :error="$errors->first('name')">
                         <x-input.text id="name" wire:model.lazy="name"
@@ -14,33 +14,29 @@
                     </x-input.group>
                 </div>
 
-                <div class="col-span-5">
+                <div class="col-span-10 md:col-span-5">
                     <x-input.group stacked for="email" label="{{ __('Email*') }}"
                                    :error="$errors->first('email')">
                         <x-input.text id="email" wire:model.lazy="email"
                                       :error="$errors->first('email')"/>
                     </x-input.group>
                 </div>
+
+            <div class="col-span-10 md:col-span-5">
+                <x-input.group stacked for="phone" label="{{ __('Telefoon') }}"
+                               :error="$errors->first('phone')">
+                    <x-input.text id="phone" wire:model.lazy="phone"
+                                  :error="$errors->first('phone')"/>
+                </x-input.group>
+            </div>
+            <div class="col-span-10 md:col-span-5">
+                <x-input.group stacked for="company" label="{{ __('Bedrijf') }}"
+                               :error="$errors->first('company')">
+                    <x-input.text id="company" wire:model.lazy="company"
+                                  :error="$errors->first('company')"/>
+                </x-input.group>
             </div>
 
-            <div class="grid grid-cols-10 gap-5">
-                <div class="col-span-5">
-                    <x-input.group stacked for="phone" label="{{ __('Telefoon') }}"
-                                   :error="$errors->first('phone')">
-                        <x-input.text id="phone" wire:model.lazy="phone"
-                                      :error="$errors->first('phone')"/>
-                    </x-input.group>
-                </div>
-                <div class="col-span-5">
-                    <x-input.group stacked for="company" label="{{ __('Bedrijf') }}"
-                                   :error="$errors->first('company')">
-                        <x-input.text id="company" wire:model.lazy="company"
-                                      :error="$errors->first('company')"/>
-                    </x-input.group>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-10 gap-5">
                 <div class="col-span-10">
                     <x-input.group stacked for="subject" label="{{ __('Onderwerp/Vraag*') }}"
                                    :error="$errors->first('subject')">
@@ -48,9 +44,7 @@
                                       :error="$errors->first('subject')"/>
                     </x-input.group>
                 </div>
-            </div>
 
-            <div class="grid grid-cols-10 gap-5">
                 <div class="col-span-10">
                     <x-input.group stacked for="message" label="{{ __('Bericht*') }}"
                                    :error="$errors->first('message')">
@@ -59,7 +53,6 @@
                     </x-input.group>
                 </div>
             </div>
-
         </div>
     </div>
 
