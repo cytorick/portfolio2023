@@ -210,7 +210,7 @@
                             class="fa-solid fa-arrow-right text-green-600"></i>
                     </span>
                     <span
-                        class="block md:hidden inline mt-2">Navigeer met door te <span
+                        class="block md:hidden inline mt-2">Navigeer door te <span
                             class="text-green-600">swipen</span></span>
                 </p>
             </div>
