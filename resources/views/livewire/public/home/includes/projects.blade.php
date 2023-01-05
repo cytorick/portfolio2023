@@ -207,9 +207,7 @@
                     <span class="hidden md:block">(navigeer met <i
                             class="fa-solid fa-arrow-left text-green-600"></i> & <i
                             class="fa-solid fa-arrow-right text-green-600"></i>)</span><span
-                        class="block md:hidden inline">(navigeer met <i
-                            class="fa-solid fa-arrow-left text-green-600"></i> & <i
-                            class="fa-solid fa-arrow-right text-green-600"></i>)</span>
+                        class="block md:hidden inline">navigeer met door te <span class="text-green-600">swipen</span></span>
                 </p>
             </div>
             <div class="lg:col-span-2">
