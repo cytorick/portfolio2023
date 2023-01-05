@@ -105,8 +105,7 @@
 
 <div class="bg-gray-50 dark:bg-black hidden md:block">
     <div class="mx-auto max-w-7xl py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
-        <h2 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-200 sm:text-3xl">Waarmee je ook contact met mij kan
-            opnemen</h2>
+        <h2 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-200 sm:text-3xl">Mijn linkjes en contact-mogelijkheden</h2>
         <div class="mt-8 flow-root lg:mt-10">
             <div class="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
                 @foreach($links as $link)
@@ -124,8 +123,7 @@
 
 <div class="bg-gray-50 dark:bg-black md:hidden">
     <div class="mx-auto max-w-7xl py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
-        <h2 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-200 sm:text-3xl">Waarmee je ook contact met mij kan
-            opnemen</h2>
+        <h2 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-200 sm:text-3xl">Mijn linkjes en contact-mogelijkheden (swipe)</h2>
         <div class="mt-8 flow-root lg:mt-10">
             <div class="carousel">
                 @foreach($links as $link)

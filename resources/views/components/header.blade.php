@@ -31,7 +31,7 @@
                             <button
                                 id="theme-toggle"
                                 type="button"
-                                class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+                                class="text-green-600 rounded-lg text-sm p-2.5"
                             >
                                 <svg
                                     id="theme-toggle-dark-icon"
@@ -85,11 +85,11 @@
                     <button
                         id="theme-toggle-md"
                         type="button"
-                        class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+                        class="text-gray-500 hover:text-green-600 hover:bg-gray-200 dark:text-gray-400 dark:hover:text-green-600 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
                     >
                         <svg
                             id="theme-toggle-dark-icon-md"
-                            class="w-5 h-5 hidden"
+                            class="w-6 h-6 hidden"
                             fill="currentColor"
                             viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@
                         </svg>
                         <svg
                             id="theme-toggle-light-icon-md"
-                            class="w-5 h-5 hidden"
+                            class="w-6 h-6 hidden"
                             fill="currentColor"
                             viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg"
