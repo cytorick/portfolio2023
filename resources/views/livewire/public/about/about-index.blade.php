@@ -85,7 +85,7 @@
                 </svg>
 
                 <div class="relative -mx-4 mt-10 lg:mt-0 pl-8" aria-hidden="true">
-                    <img class="relative mx-auto rounded-md shadow" src="{{ asset('img/rick-computer.jpeg') }}" alt="">
+                    <img class="relative mx-auto rounded-md shadow z-50" src="{{ asset('img/rick-computer.jpeg') }}" alt="">
                 </div>
             </div>
         </div>
@@ -167,7 +167,7 @@
 
             <div class="relative -mx-4 mt-10 lg:mt-0" aria-hidden="true">
                 <img src="{{ asset('img/20180826_123127.JPG') }}" alt=""
-                     class="rounded-xl transform -scale-x-100">
+                     class="rounded-xl transform -scale-x-100 z-50">
             </div>
         </div>
 
@@ -209,7 +209,7 @@
 
                 <div class="relative -mx-4 mt-10 lg:col-start-1 lg:mt-0  mr-5">
                     <img src="{{ asset('img/20180820_170458.JPG') }}" alt=""
-                         class="rounded-xl transform -scale-x-100">
+                         class="rounded-xl transform -scale-x-100 z-50">
                 </div>
             </div>
         </div>

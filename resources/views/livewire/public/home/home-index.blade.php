@@ -65,7 +65,7 @@
             </div>
 
             <div class="relative -mx-4 mt-10 lg:mt-0 pl-8" aria-hidden="true">
-                <img class="relative mx-auto rounded-md shadow" src="{{ asset('img/20180826_123127.JPG') }}" alt="">
+                <img class="relative mx-auto rounded-md shadow z-50" src="{{ asset('img/20180826_123127.JPG') }}" alt="">
             </div>
         </div>
 
