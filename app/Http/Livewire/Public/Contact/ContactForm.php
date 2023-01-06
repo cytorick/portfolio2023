@@ -39,7 +39,7 @@ class ContactForm extends Component
 
         Mail::to('rickvisser99@gmail.com')->send(new SendMail($data));
         $this->clearFields();
-        $this->dispatchBrowserEvent('notify', 'Message successfully send!');
+        $this->dispatchBrowserEvent('notify', 'Uw bericht is verzonden, bedankt!');
     }
 
     private function clearFields()
