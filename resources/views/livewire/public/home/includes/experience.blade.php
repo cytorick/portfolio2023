@@ -95,7 +95,7 @@
                     @foreach($jobs->take(5) as $job)
                         <div class="col-span-1 flex justify-center py-8 px-8 z-50">
                             @foreach($job->media as $media)
-                                <img src="https://images.cytorick.nl/{{ $media->id }}/{{ $media->file_name }}"
+                                <img src="{{ $media->id }}/{{ $media->file_name }}"
                                      alt=""
                                      class="max-h-16">
                             @endforeach
@@ -104,7 +104,7 @@
                     @foreach($internships as $internship)
                         <div class="col-span-1 flex justify-center py-8 px-8 z-50">
                             @foreach($internship->media as $media)
-                                <img src="https://images.cytorick.nl/{{ $media->id }}/{{ $media->file_name }}"
+                                <img src="{{ $media->id }}/{{ $media->file_name }}"
                                      alt=""
                                      class="max-h-16">
                             @endforeach

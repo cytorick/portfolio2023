@@ -31,7 +31,7 @@
                                         <div class="flex-shrink-0">
                                             @foreach($project->media as $media)
                                                 <img
-                                                    src="https://images.cytorick.nl/{{ $media->id }}/{{ $media->file_name }}"
+                                                    src="{{ $media->id }}/{{ $media->file_name }}"
                                                     alt=""
                                                     class="h-48 w-full object-cover">
                                             @endforeach

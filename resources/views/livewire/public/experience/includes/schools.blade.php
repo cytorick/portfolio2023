@@ -14,7 +14,7 @@
                         <li>
                             <div class="flex items-center space-x-4 lg:space-x-6">
                                 <img class="w-20"
-                                     src="https://images.cytorick.nl/{{ $school->media[0]->id }}/{{ $school->media[0]->file_name }}"
+                                     src="{{ $school->media[0]->id }}/{{ $school->media[0]->file_name }}"
                                      alt="">
                                 <div class="space-y-1 text-lg font-medium leading-6">
                                     <h3 class="text-gray-900 dark:text-gray-200">{{ $school->name }} {!! $school->status ? '<i class="fa-solid fa-check text-green-600"></i>' : '' !!}</h3>

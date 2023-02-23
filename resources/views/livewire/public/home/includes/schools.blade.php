@@ -32,7 +32,7 @@
                                 <div class="col-span-2 justify-center my-auto mx-auto">
                                     @foreach($school->media as $media)
                                         <img
-                                            src="https://images.cytorick.nl/{{ $media->id }}/{{ $media->file_name }}"
+                                            src="{{ $media->id }}/{{ $media->file_name }}"
                                             alt="" class="inline-block align-middle px-3">
                                     @endforeach
                                 </div>
@@ -108,7 +108,7 @@
                                         class="absolute flex h-12 w-12 items-center justify-center rounded-xl bg-green-600 text-white">
                                         @foreach($language->media as $media)
                                             <img
-                                                src="https://images.cytorick.nl/{{ $media->id }}/{{ $media->file_name }}"
+                                                src="{{ $media->id }}/{{ $media->file_name }}"
                                                 alt="vlag" class="h-6 w-8">
                                         @endforeach
                                     </div>
@@ -129,7 +129,7 @@
                         @foreach($certificates as $certificate)
                             <div class="col-span-1 flex justify-center py-8 px-8 rounded-xl bg-transparent">
                                 @foreach($certificate->media as $media)
-                                    <img src="https://images.cytorick.nl/{{ $media->id }}/{{ $media->file_name }}"
+                                    <img src="{{ $media->id }}/{{ $media->file_name }}"
                                          alt=""
                                          class="max-h-16">
                                 @endforeach

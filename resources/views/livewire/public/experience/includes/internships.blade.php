@@ -11,7 +11,7 @@
                         <li>
                             <div class="flex items-center space-x-4 lg:space-x-6">
                                 <img class="w-20"
-                                     src="https://images.cytorick.nl/{{ $internship->media[0]->id }}/{{ $internship->media[0]->file_name }}"
+                                     src="{{ $internship->media[0]->id }}/{{ $internship->media[0]->file_name }}"
                                      alt="">
                                 <div class="space-y-1 text-lg font-medium leading-6">
                                     <h3 class="text-gray-900 dark:text-gray-200">{{ $internship->name }}</h3>

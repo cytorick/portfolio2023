@@ -191,7 +191,7 @@
                                         class="absolute flex h-12 w-12 items-center justify-center rounded-xl bg-green-600 text-white">
                                         @foreach($language->media as $media)
                                             <img
-                                                src="https://images.cytorick.nl/{{ $media->id }}/{{ $media->file_name }}"
+                                                src="{{ $media->id }}/{{ $media->file_name }}"
                                                 alt="vlag" class="h-6 w-8">
                                         @endforeach
                                     </div>

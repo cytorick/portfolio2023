@@ -224,7 +224,7 @@
                                     <div class="sm:h-0 sm:aspect-w-3 sm:aspect-h-4">
                                         @foreach($project->media as $media)
                                             <img
-                                                src="https://images.cytorick.nl/{{ $media->id }}/{{ $media->file_name }}"
+                                                src="{{ $media->id }}/{{ $media->file_name }}"
                                                 alt="{{ $media->file_name }}"
                                                 class="object-cover rounded-lg">
                                         @endforeach
